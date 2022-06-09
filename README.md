@@ -1,5 +1,5 @@
 - Hi, I’m @KhadaAke
-- I’m interested in Programming, gaming, 
+- I’m interested in programming, gaming
 - I’m currently learning Python
 - How to reach me - quality_xqs@yahoo.com / khadaake@gmail.com
 
