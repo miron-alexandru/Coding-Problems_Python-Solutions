@@ -1,9 +1,3 @@
-- Hi, I’m @KhadaAke
-- I’m interested in programming, gaming
-- I’m currently learning Python
-- How to reach me - quality_xqs@yahoo.com / khadaake@gmail.com
+# Budget App
 
-<!---
-KhadaAke/KhadaAke is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+This is the boilerplate for the Budget App project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/budget-app
