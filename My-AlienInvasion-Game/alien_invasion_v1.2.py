@@ -4,7 +4,7 @@ from time import sleep
 import pygame
 import random
 
-from ships_aliens_img import *
+from ships_aliens_img import aliens_img, ship_images
 from settings import Settings
 from game_stats import GameStats
 from scoreboard import ScoreBoard
@@ -140,17 +140,17 @@ class AlienInvasion:
         elif event.key == pygame.K_s:
             self.second_ship.moving_downn = True
         elif event.key == pygame.K_KP1:
-            self.ship.image = images[0]
+            self.ship.image = ship_images[0]
         elif event.key == pygame.K_KP2:
-            self.ship.image = images[1]
+            self.ship.image = ship_images[1]
         elif event.key == pygame.K_KP3:
-            self.ship.image = images[2]
+            self.ship.image = ship_images[2]
         elif event.key == pygame.K_1:
-            self.second_ship.image = images[3]
+            self.second_ship.image = ship_images[3]
         elif event.key == pygame.K_2:
-            self.second_ship.image = images[4]
+            self.second_ship.image = ship_images[4]
         elif event.key == pygame.K_3:
-            self.second_ship.image = images[5]
+            self.second_ship.image = ship_images[5]
         elif event.key == pygame.K_KP0:
             self.settings.bullet_width += 1
             self.settings.bullet_height += 1
@@ -418,4 +418,4 @@ if __name__ =='__main__':
     ai = AlienInvasion()
     ai.run_game()
 
-#TODO: Make new aliens/aliens that should be hit 2 times to die
+
