@@ -25,6 +25,7 @@ class AlienInvasion:
         self.settings.screen_width = self.screen.get_rect().width
         self.settings.screen_height = self.screen.get_rect().height
         self.bg_img = pygame.transform.smoothscale(self.settings.bg_img, self.screen.get_size())
+        self.second_bg_img = pygame.transform.smoothscale(self.settings.second_bg_img, self.screen.get_size())
         pygame.display.set_caption("Alien Invasion")
         self.sound = pygame.mixer.Sound('fire.wav')
 
@@ -51,9 +52,11 @@ class AlienInvasion:
             running = True
             i = 0
             while running:
+                if self.stats.level == 3:
+                    self.bg_img = self.second_bg_img
                 self.screen.blit(self.bg_img, [0,i])
-                self.screen.blit(self.bg_img, [0, -self.settings.screen_height+i])
-                if i == self.settings.screen_height:
+                self.screen.blit(self.bg_img, [0, i  - self.settings.screen_height])
+                if i >= self.settings.screen_height:
                     i = 0
                 i += 1
 
@@ -259,7 +262,6 @@ class AlienInvasion:
                             self.sb.check_high_score()
 
 
-
         if not self.aliens:
             # Destroy existing bullets and create new fleet.
             self.bullets.empty()
@@ -269,10 +271,6 @@ class AlienInvasion:
             # Increase level.
             self.stats.level += 1
             self.sb.prep_level()
-
-
-
-
 
 
     def _update_aliens(self):
@@ -360,12 +358,18 @@ class AlienInvasion:
         alien.rect.x = alien.x
         alien.rect.y = alien.rect.height + 2 * alien.rect.height * row_number
         self.aliens.add(alien)
-        if self.stats.level <= 1:
-            alien.image = alimg1
-        elif self.stats.level <= 2:
-            alien.image = alimg3
-        
 
+        if self.stats.level // 2 == 0:
+            alien.image = aliens_img[0]
+        elif self.stats.level // 2 == 1:
+            alien.image = aliens_img[1]
+        elif self.stats.level // 2 == 2:
+            alien.image = aliens_img[2]
+        elif self.stats.level // 2 == 3:
+            alien.image = aliens_img[3]
+        else:
+            alien.image = aliens_img[3]
+        
     def _check_fleet_edges(self):
         """Respond appropriately if any aliens have reached an edge."""
         for alien in self.aliens.sprites():
