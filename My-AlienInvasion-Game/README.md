@@ -10,12 +10,16 @@ Implemented new features:
   
   Moving background
   
-  Aliens get stronger after level 5
+  Background changes after a certain level
   
-  New alien skins when the level increases.
+  Aliens get stronger after a certain level
+  
+  New alien skins when the level increases
+  
+  
 
 
 
-To Do: New background and/or sounds for new levels/Ship sounds/ Shooting aliens/Power-ups
+To Do: Background music for different levels/Ship sounds/ Shooting aliens/Power-ups
 
 # Still in development
