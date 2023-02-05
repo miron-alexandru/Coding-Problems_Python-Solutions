@@ -16,6 +16,8 @@ Implemented new features:
   
   New alien skins when the level increases
   
+  Resizable window
+  
   
 
 
