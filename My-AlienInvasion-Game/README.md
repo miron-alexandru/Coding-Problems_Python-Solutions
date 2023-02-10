@@ -1,8 +1,6 @@
 My version of Alien Invasion from Python Crash Course by Eric Matthes
 
 Implemented new features:
-
-  Customizable bullet size
   
   Customizable ship skin
   
@@ -18,10 +16,12 @@ Implemented new features:
   
   Resizable window
   
+  Player power ups 
+  
   
 
 
 
-To Do: Background music for different levels/Ship sounds/ Shooting aliens/Power-ups
+To Do: Background music for different levels/Ship sounds/ Shooting aliens
 
 # Still in development
