@@ -8,14 +8,16 @@ import moviepy.editor as mp
 import re
 import threading
 
-stop_download = False
+stop_event = threading.Event()
 
 def Download_Video():
+    global stop_event
+    stop_event.clear()
     yt = str(link.get())
     purl = Playlist(yt)
     num_videos = len(purl.videos)
     for i, video in enumerate(purl.videos):
-        if stop_download:
+        if stop_event.is_set():
             break
         mp4_stream = video.streams.filter(file_extension='mp4').first()
         mp4_stream.download(download_directory)
@@ -29,13 +31,14 @@ def Download_Video():
                 clip.write_audiofile(mp3_path)
                 os.remove(mp4_path)
         progress_bar["value"] = int((i + 1) / num_videos * 100)
+        window.update()
         window.update_idletasks()
         
     tk.Label(window, text='Success!', font='arial 19', fg="Black", bg="#0000FF").place(x=10, y=25)
 
 def stop_downloading():
-    global stop_download
-    stop_download = True
+    global stop_event
+    stop_event.set()
 
 def choose_download_directory():
     global download_directory
@@ -64,7 +67,6 @@ tk.Button(window,text = 'Download location', font = 'arial 13 bold',fg="black",b
 tk.Button(window,text = 'Stop', font = 'arial 15 bold' ,fg="white",bg = 'red', padx = 2,command=stop_downloading).place(x=520 ,y = 140)
 download_button = tk.Button(window,text = 'Start', font = 'arial 15 bold' ,fg="white",bg = 'black', padx = 2,command=Download_Video)
 download_button.place(x=360, y = 140)
-download_button.config(command=lambda: threading.Thread(target=Download_Video).start())
-
+download_button.config(command=lambda: threading.Thread(target=Download_Video, args=(), daemon=True).start())
 window.mainloop()
 
