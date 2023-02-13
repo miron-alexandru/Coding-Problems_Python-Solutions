@@ -1,3 +1,10 @@
-Hello, I am Alex, a self-taught programmer and here I'm posted my work/practice.
+Here I'm posting my projects/practice.
 
-I mostly work with Python.
+Practice code from different books, sites like Codewars, Hackerrank e.t.c
+
+Projects:
+Alien Invasion game, using Pygame and Python.
+Youtube playlist converter to .mp3, using tkinter, Python, pytube, moviepy
+
+I mostly work with Python, looking to improve myself and my skills.
+
