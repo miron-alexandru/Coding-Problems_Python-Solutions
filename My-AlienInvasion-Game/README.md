@@ -1,10 +1,10 @@
-My version of Alien Invasion from Python Crash Course by Eric Matthes
+Alien Invasion Game
 
-Implemented new features:
+Features:
   
   Customizable ship skin
   
-  Multiplayer
+  Multiplayer / Singleplayer choice
   
   Moving background
   
@@ -18,10 +18,8 @@ Implemented new features:
   
   Player power ups 
   
-  
 
 
-
-To Do: Background music for different levels/Ship sounds/ Shooting aliens
+To Do: Background music for different levels/Ship sounds/ Shooting aliens/Bosses/Different kind of bullets/Different settings/story.
 
 # Still in development
