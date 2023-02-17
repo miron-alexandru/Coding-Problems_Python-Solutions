@@ -1,4 +1,4 @@
-Alien Invasion Game
+Alien Onslaught
 
 Features:
   
@@ -6,20 +6,19 @@ Features:
   
   Multiplayer / Singleplayer choice
   
-  Moving background
+  Background changes throughout the game
   
-  Background changes after a certain level
+  Stronger aliens as the level increases 
   
-  Aliens get stronger after a certain level
-  
-  New alien skins when the level increases
+  New aliens when the level increases
   
   Resizable window
   
   Player power ups 
   
+  Aliens shooting bullets
+  
 
-
-To Do: Background music for different levels/Ship sounds/ Shooting aliens/Bosses/Different kind of bullets/Different settings/story.
+To Do: Background music for different levels/Ship sounds/Bosses/Different kind of bullets/Different settings/story.
 
 # Still in development
