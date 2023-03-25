@@ -1,1 +1,1 @@
-Different exercises from books and online practice.
+My solutions for different coding problems.

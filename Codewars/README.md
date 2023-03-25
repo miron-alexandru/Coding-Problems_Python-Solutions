@@ -1,3 +1,3 @@
- My solutions for problems on https://www.codewars.com/
+ My solutions for coding problems on [Codewars](https://www.codewars.com/)
 
- My profile: https://www.codewars.com/users/KhadaAke
+ Profile: [KhadaAke](https://www.codewars.com/users/KhadaAke)

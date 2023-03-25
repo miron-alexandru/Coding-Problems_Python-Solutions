@@ -1,2 +1,1 @@
- Practice code from different books, sites like Codewars, Hackerrank e.t.c
-
+I am using this Python repository to post my solutions to coding problems from various sources such as Codewars, Hackerrank, Leetcode, and books. Here, I keep track of my progress and improvements, making it easier for me to revisit and review my solutions.
