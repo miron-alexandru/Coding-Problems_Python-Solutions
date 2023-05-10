@@ -1,7 +1,7 @@
 # Problem Link: https://www.hackerrank.com/challenges/one-week-preparation-kit-diagonal-difference/problem
 
 
-# My Solution: 
+# My Solution:
 def diagonalDifference(arr):
     n = len(arr)
     left_sum = 0

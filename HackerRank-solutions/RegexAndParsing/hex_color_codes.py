@@ -3,6 +3,7 @@
 
 # my solution:
 import re
+
 n = int(input())
 for i in range(n):
     pattern = re.findall(r"(\#[a-f0-9]{3,6})[\;\,\)]{1}", input(), re.I)

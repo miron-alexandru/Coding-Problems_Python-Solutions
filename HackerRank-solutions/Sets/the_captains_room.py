@@ -1,4 +1,4 @@
-'''
+"""
 Mr. Anant Asankhya is the manager at the INFINITE hotel.
 The hotel has an infinite amount of rooms.
 
@@ -37,7 +37,8 @@ Sample Input
 
 Sample Output
 8
-'''
+"""
+
 
 # My Solution
 def find_captain_room(k, rooms):
@@ -47,10 +48,11 @@ def find_captain_room(k, rooms):
             room_count[room] = 1
         else:
             room_count[room] += 1
-    
+
     for room, count in room_count.items():
         if count == 1:
             return room
+
 
 n = int(input().strip())
 rooms = list(map(int, input().strip().split()))

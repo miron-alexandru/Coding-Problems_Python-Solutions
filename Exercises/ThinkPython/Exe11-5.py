@@ -5,7 +5,7 @@ def make_word_dict():
     """Read the words in words.txt and return a dictionary
     that contains the words as keys"""
     d = dict()
-    fin = open('words.txt')
+    fin = open("words.txt")
     for line in fin:
         word = line.strip().lower()
         d[word] = None
@@ -24,7 +24,7 @@ def rotate_pairs(word, word_dict):
             print(word, i, rotated)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     word_dict = make_word_dict()
 
     for word in word_dict:

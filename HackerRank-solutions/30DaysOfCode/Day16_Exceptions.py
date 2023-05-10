@@ -7,5 +7,4 @@ S = input()
 try:
     print(int(S))
 except ValueError as ve:
-    print('Bad String')
-
+    print("Bad String")

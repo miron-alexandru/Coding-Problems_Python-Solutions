@@ -17,7 +17,7 @@ def next_bigger(n):
 
     # Swap digits
     digits[i], digits[j] = digits[j], digits[i]
-    # Reverse 
-    digits[i + 1:] = reversed(digits[i + 1:])
+    # Reverse
+    digits[i + 1 :] = reversed(digits[i + 1 :])
 
-    return int(''.join(digits))
+    return int("".join(digits))

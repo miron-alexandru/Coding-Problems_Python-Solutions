@@ -4,6 +4,7 @@
 # My Solution:
 import itertools
 
+
 def permutations(s):
-    perms = set(''.join(p) for p in itertools.permutations(s))
+    perms = set("".join(p) for p in itertools.permutations(s))
     return list(perms)

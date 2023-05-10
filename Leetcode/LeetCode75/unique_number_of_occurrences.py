@@ -10,11 +10,11 @@ class Solution:
                 occurrences[i] += 1
             else:
                 occurrences[i] = 1
-        
+
         counts_seen = set()
         for count in occurrences.values():
             if count in counts_seen:
                 return False
             counts_seen.add(count)
-        
+
         return True

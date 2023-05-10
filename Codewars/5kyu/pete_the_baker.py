@@ -3,6 +3,7 @@
 
 # My Solution:
 
+
 def cakes(recipe, available):
     num_cakes = float("inf")
     for ingredient, amount in recipe.items():

@@ -5,10 +5,10 @@
 def valid_parentheses(string):
     stack = []
     for c in string:
-        if c == '(':
+        if c == "(":
             stack.append(c)
-        elif c == ')':
-            if not stack or stack[-1] != '(':
+        elif c == ")":
+            if not stack or stack[-1] != "(":
                 return False
             stack.pop()
     return not stack

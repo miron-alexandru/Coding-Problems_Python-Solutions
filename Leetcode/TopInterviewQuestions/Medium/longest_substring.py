@@ -8,7 +8,7 @@ class Solution:
         chars = set()
         longest = 0
         left = right = 0
-        
+
         while right < n:
             char = s[right]
             if char in chars:
@@ -18,5 +18,5 @@ class Solution:
                 chars.add(char)
                 longest = max(longest, right - left + 1)
                 right += 1
-            
+
         return longest

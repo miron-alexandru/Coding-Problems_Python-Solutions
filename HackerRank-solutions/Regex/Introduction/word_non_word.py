@@ -1,4 +1,4 @@
 # problem link: https://www.hackerrank.com/challenges/matching-word-non-word/problem
 
 # my solution:
-Regex_Pattern = r"\w{3}\W\w{10}\W\w{3}"	# Do not delete 'r'.
+Regex_Pattern = r"\w{3}\W\w{10}\W\w{3}"  # Do not delete 'r'.

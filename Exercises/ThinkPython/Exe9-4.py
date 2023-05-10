@@ -4,13 +4,14 @@ def uses_only(word, letters):
             return False
     return True
 
-fin = open('words.txt')
+
+fin = open("words.txt")
 count = 0
 
 for line in fin:
     word = line.strip()
-    if uses_only(word, 'a c e f h l o') == True:
+    if uses_only(word, "a c e f h l o") == True:
         print(word)
         count += 1
-        
+
 print(count)

@@ -1,4 +1,4 @@
-'''
+"""
 You are given a two lists A and B. Your task is to comute their cartesian
 product AxB
 
@@ -18,7 +18,7 @@ Sample Input
 
 Sample Output
 (1, 3) (1, 4) (2, 3) (2, 4)
-'''
+"""
 
 # My solution
 from itertools import product
@@ -27,4 +27,4 @@ a = map(int, input().strip().split())
 b = map(int, input().strip().split())
 
 for x, y in product(a, b):
-    print('({}, {})'.format(x, y), end=' ')
+    print("({}, {})".format(x, y), end=" ")

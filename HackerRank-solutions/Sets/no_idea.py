@@ -1,4 +1,4 @@
-'''
+"""
 There is an array of n integers. There are also 2 disjoint sets, A and B
 each containing m integers. You like all the integers in set A and dislike
 all the integers in set B. Your initial happiness is 0. For each i integer 
@@ -26,7 +26,7 @@ Sample input
 
 Sample output
 1
-'''
+"""
 
 # My solution
 n, m = (int(i) for i in input().split())
@@ -36,9 +36,9 @@ set_b = set(map(int, input().strip().split()))
 
 happiness = 0
 for i in arr:
-	if i in set_a:
-		happiness += 1
-	if i in set_b:
-		happiness -= 1
+    if i in set_a:
+        happiness += 1
+    if i in set_b:
+        happiness -= 1
 
 print(happiness)

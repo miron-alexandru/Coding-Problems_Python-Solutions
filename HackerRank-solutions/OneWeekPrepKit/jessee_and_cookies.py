@@ -4,6 +4,7 @@
 # my solution:
 import heapq
 
+
 def cookies(k, A):
     heapq.heapify(A)
     operatios = 0
@@ -13,7 +14,7 @@ def cookies(k, A):
         combined_cookie = heapq.heappop(A) + 2 * heapq.heappop(A)
 
         heapq.heappush(A, combined_cookie)
-        
+
         # Increment the number of operations
         operatios += 1
 

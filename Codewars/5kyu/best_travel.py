@@ -3,6 +3,7 @@
 # my solution:
 from itertools import combinations
 
+
 def choose_best_sum(t, k, ls):
     best_sum = None
     for towns in combinations(ls, k):

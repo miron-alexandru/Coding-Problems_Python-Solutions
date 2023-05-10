@@ -3,7 +3,7 @@
 
 # my solution:
 class Solution:
-    def preorder(self, root: 'Node') -> List[int]:
+    def preorder(self, root: "Node") -> List[int]:
         # Define a function to traverse the tree recursively.
         def traverse(node):
             if node is None:
@@ -11,6 +11,7 @@ class Solution:
             result.append(node.val)
             for child in node.children:
                 traverse(child)
+
         # Store result
         result = []
         # perform a preorder traversal of the tree

@@ -25,4 +25,3 @@ class Solution(object):
             node = node.next
 
         return head.next
-        

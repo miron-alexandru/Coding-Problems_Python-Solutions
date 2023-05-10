@@ -1,5 +1,6 @@
 # problem link: https://www.hackerrank.com/challenges/chocolate-feast/problem
 
+
 # my solutionn:
 def chocolateFeast(n, c, m):
     choco_bought = n // c

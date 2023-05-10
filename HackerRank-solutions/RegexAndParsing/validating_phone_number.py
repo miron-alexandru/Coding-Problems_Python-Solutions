@@ -7,7 +7,7 @@ n = int(input())
 
 for i in range(n):
     number = input().strip()
-    if re.match(r'[789]\d{9}$', number):
+    if re.match(r"[789]\d{9}$", number):
         print("YES")
     else:
         print("NO")

@@ -10,7 +10,7 @@ od = OrderedDict()
 
 for i in range(n):
     values = input().strip().split()
-    item = ' '.join(values[:-1])
+    item = " ".join(values[:-1])
     price = int(values[-1])
     if item in od:
         od[item] += price

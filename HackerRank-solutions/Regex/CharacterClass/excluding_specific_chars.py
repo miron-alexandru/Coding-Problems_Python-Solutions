@@ -2,4 +2,4 @@
 
 
 # my solution
-Regex_Pattern = r'^[^\d][^aeiou][^bcDF][^\s][^AEIOU][^.,]$'
+Regex_Pattern = r"^[^\d][^aeiou][^bcDF][^\s][^AEIOU][^.,]$"

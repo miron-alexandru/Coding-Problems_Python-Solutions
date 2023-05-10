@@ -1,4 +1,4 @@
-'''
+"""
 You are given a positive integer N. Print a numerical triangle
 of height N - 1 like the one below:
 1
@@ -24,9 +24,9 @@ Sample output
 22
 333
 4444
-'''
+"""
 
 
 # Solution:
-for i in range(1,int(input())):
-    print(i*(10**i-1)//9)
+for i in range(1, int(input())):
+    print(i * (10**i - 1) // 9)

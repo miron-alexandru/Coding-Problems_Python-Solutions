@@ -5,29 +5,34 @@
 
 import math
 
+
 class Complex(object):
     def __init__(self, real, imaginary):
         self.real = real
         self.imaginary = imaginary
-        
+
     def __add__(self, other):
         return Complex(self.real + other.real, self.imaginary + other.imaginary)
-    
+
     def __sub__(self, other):
         return Complex(self.real - other.real, self.imaginary - other.imaginary)
-        
+
     def __mul__(self, other):
-        return Complex(self.real * other.real - self.imaginary * other.imaginary, 
-                       self.real*other.imaginary + self.imaginary*other.real)
-    
+        return Complex(
+            self.real * other.real - self.imaginary * other.imaginary,
+            self.real * other.imaginary + self.imaginary * other.real,
+        )
+
     def __truediv__(self, other):
-        denominator = other.real ** 2 + other.imaginary ** 2
-        return Complex((self.real * other.real + self.imaginary * other.imaginary) / denominator, 
-                       (self.imaginary*other.real - self.real * other.imaginary) / denominator)
-        
+        denominator = other.real**2 + other.imaginary**2
+        return Complex(
+            (self.real * other.real + self.imaginary * other.imaginary) / denominator,
+            (self.imaginary * other.real - self.real * other.imaginary) / denominator,
+        )
+
     def mod(self):
-        return Complex(math.sqrt(self.real ** 2 + self.imaginary ** 2), 0)
-    
+        return Complex(math.sqrt(self.real**2 + self.imaginary**2), 0)
+
     def __str__(self):
         if self.imaginary == 0:
             result = "%.2f+0.00i" % (self.real)

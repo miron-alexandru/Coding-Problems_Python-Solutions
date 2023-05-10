@@ -4,6 +4,7 @@
 # my solution:
 # problem link: https://www.hackerrank.com/challenges/magic-square-forming/problem
 
+
 # My Solution:
 def formingMagicSquare(s):
     magic_squares = [
@@ -17,7 +18,7 @@ def formingMagicSquare(s):
         [[2, 7, 6], [9, 5, 1], [4, 3, 8]],
     ]
 
-    min_cost = float('inf')
+    min_cost = float("inf")
     for magic_square in magic_squares:
         cost = 0
         for i in range(3):

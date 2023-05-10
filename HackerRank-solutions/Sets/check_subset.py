@@ -1,4 +1,4 @@
-'''
+"""
 You are given two sets, A nd B.
 Your job is to find whether set A is a subset of set B
 
@@ -39,7 +39,7 @@ Sample output
 True
 False
 False
-'''
+"""
 
 # My Solution
 t = int(input().strip())

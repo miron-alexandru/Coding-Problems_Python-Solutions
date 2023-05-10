@@ -9,7 +9,7 @@ names = []
 
 for i in range(n):
     name, email = input().split()
-    if re.search(r'@gmail\.com$', email):
+    if re.search(r"@gmail\.com$", email):
         names.append(name)
 
 for name in sorted(names):

@@ -1,4 +1,4 @@
-'''
+"""
 Raghu is a shoe shop owner. His shop has x number of shoes.
 He has a list containing the size of each shoe he has in his shop.
 There are N number of customers who are willing to pay xi amount of 
@@ -32,7 +32,7 @@ Sample input
 
 Sample Output
 200
-'''
+"""
 # My solution:
 
 from collections import Counter
@@ -48,5 +48,3 @@ for i in range(int(input())):
         shoes[size] -= 1
 
 print(money)
-
-

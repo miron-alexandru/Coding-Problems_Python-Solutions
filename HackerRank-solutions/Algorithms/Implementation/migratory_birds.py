@@ -1,5 +1,6 @@
 # problem link: https://www.hackerrank.com/challenges/migratory-birds/problem
 
+
 # my solution:
 def migratoryBirds(arr):
     freq = {}

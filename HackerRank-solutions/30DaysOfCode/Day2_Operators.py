@@ -1,4 +1,4 @@
-'''
+"""
 Given the meal price (base cost of a meal), tip percent
 (the percentage of the meal price being added as tip), and tax
 percent (the percentage of the meal price being added as tax)
@@ -31,7 +31,8 @@ Sample Input
 
 Sample output
 15
-'''
+"""
+
 
 # My solution:
 def solve(meal_cost, tip_percent, tax_percent):
@@ -39,7 +40,9 @@ def solve(meal_cost, tip_percent, tax_percent):
     tax_cost = tax_percent / 100 * meal_cost
     total_cost = meal_cost + tip_cost + tax_cost
     print(round(total_cost))
-if __name__ == '__main__':
+
+
+if __name__ == "__main__":
     meal_cost = float(input().strip())
 
     tip_percent = int(input().strip())

@@ -1,4 +1,4 @@
-'''
+"""
 Given 2 sets of integers, M and N, print their symmetric difference
 in ascending order. The termin symmetric difference indicates
 those value that existt in either M or N but do not exist in both.
@@ -28,11 +28,13 @@ Sample output
 9
 11
 12
-'''
+"""
+
 
 # My solution
 def symmetric_difference(set_a, set_b):
-	return sorted(list(set(set_a) ^ set(set_b)))
+    return sorted(list(set(set_a) ^ set(set_b)))
+
 
 m = int(input().strip())
 m_elements = set(map(int, input().strip().split()))
@@ -42,7 +44,7 @@ n_elements = set(map(int, input().strip().split()))
 result = symmetric_difference(m_elements, n_elements)
 
 for num in result:
-	print(num)
+    print(num)
 
 
 # Second solution:
@@ -51,4 +53,3 @@ n, n_set = int(input()), set(map(int, input().split()))
 
 for num in sorted(list(m_set ^ n_set)):
     print(num)
-

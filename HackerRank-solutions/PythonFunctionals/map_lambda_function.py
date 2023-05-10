@@ -5,6 +5,7 @@
 
 cube = lambda x: x**3
 
+
 def fibonacci(n):
     result = []
     a, b = 0, 1

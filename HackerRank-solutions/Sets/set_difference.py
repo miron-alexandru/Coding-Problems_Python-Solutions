@@ -1,4 +1,4 @@
-'''
+"""
 The students of District College have subscriptions to English
 and Frech newspapers. Some students have subscribed only to 
 English, some have subscribed to only French and some have subscribed to
@@ -35,7 +35,7 @@ Sample input
 
 Sample output
 4
-'''
+"""
 
 # My solution
 

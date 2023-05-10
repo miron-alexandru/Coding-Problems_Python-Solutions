@@ -1,4 +1,4 @@
-'''
+"""
 You are given a set A and n other sets.
 Your job is to find whether set A is a strict superset of each of the N
 sets.
@@ -25,7 +25,7 @@ Sample input
 
 Sample output
 False
-'''
+"""
 
 # My Solution
 a = set(map(int, input().strip().split()))
@@ -35,10 +35,8 @@ sets = [set(map(int, input().split())) for s in range(n)]
 
 result = True
 for sets in sets:
-	if not set(sets).issubset(a) or len(sets) >= len(a):
-		result = False
-		break
+    if not set(sets).issubset(a) or len(sets) >= len(a):
+        result = False
+        break
 
 print(result)
-
-

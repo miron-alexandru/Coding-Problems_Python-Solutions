@@ -1,7 +1,6 @@
 # Problem link: https://www.hackerrank.com/challenges/calendar-module/problem
 
 
-
 # My solution:
 # Without calendar module.
 

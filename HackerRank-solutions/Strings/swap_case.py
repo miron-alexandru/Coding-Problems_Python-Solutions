@@ -12,8 +12,8 @@
 # hACKERrANK.COM PRESENTS "pYTHONIST 2".
 
 
-
 # My solution
 
+
 def swap_case(s):
-	return s.swapcase()
+    return s.swapcase()

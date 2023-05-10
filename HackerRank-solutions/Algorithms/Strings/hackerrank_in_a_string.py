@@ -5,8 +5,8 @@
 def hackerrankInString(s):
     k = 0
     for ind, i in enumerate(s):
-        if s[ind] == 'hackerrank'[k]:
+        if s[ind] == "hackerrank"[k]:
             k += 1
-        if k == len('hackerrank'):
-            return 'YES'
-    return 'NO'
+        if k == len("hackerrank"):
+            return "YES"
+    return "NO"

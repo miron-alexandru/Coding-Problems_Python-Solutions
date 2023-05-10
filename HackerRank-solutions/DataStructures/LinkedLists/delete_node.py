@@ -1,5 +1,6 @@
 # problem link: https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem
 
+
 # my solution:
 def deleteNode(llist, position):
     if llist is None:  # list is empty

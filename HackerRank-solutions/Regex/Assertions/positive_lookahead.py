@@ -2,4 +2,4 @@
 
 
 # my solutionn:
-Regex_Pattern = r'(.)(?!\1).'
+Regex_Pattern = r"(.)(?!\1)."

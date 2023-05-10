@@ -27,9 +27,10 @@
 # My Solution:;
 def average_marks(dictionary, name):
     marks = dictionary[name]
-    return format(sum(marks) / len(marks), '.2f')
+    return format(sum(marks) / len(marks), ".2f")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     n = int(input())
     student_marks = {}
     for i in range(n):

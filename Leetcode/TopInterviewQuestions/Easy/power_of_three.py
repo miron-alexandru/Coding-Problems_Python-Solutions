@@ -4,6 +4,7 @@
 # My Solution:
 import math
 
+
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
         # use recurion
@@ -13,5 +14,5 @@ class Solution:
             return True
         if n % 3 != 0:
             return False
-            
+
         return self.isPowerOfThree(n // 3)

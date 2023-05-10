@@ -1,4 +1,4 @@
-'''
+"""
 The provided code stub reads two integers from STDIN, a and b
 Add code to print three lines where:
 
@@ -25,13 +25,13 @@ Sample output
 5
 1
 6
-'''
+"""
 
 
 # My Solution
 
 a = int(input())
 b = int(input())
-print(a+b)
-print(a-b)
-print(a*b)
+print(a + b)
+print(a - b)
+print(a * b)

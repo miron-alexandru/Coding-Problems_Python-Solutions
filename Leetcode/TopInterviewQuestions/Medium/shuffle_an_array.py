@@ -5,6 +5,7 @@
 # solved using Fisher Yates shuffle algorithm
 import random
 
+
 class Solution:
     def __init__(self, nums: List[int]):
         self.nums = nums

@@ -1,7 +1,7 @@
 # Problem Link: https://www.hackerrank.com/challenges/np-shape-reshape/problem
 
 
-# My solution: 
+# My solution:
 import numpy as np
 
 nums = list(map(int, input().split()))

@@ -15,10 +15,10 @@ def anagram(s):
         freq_s2 = [0] * 26
         # count the frequency of each letter in both substrings
         for i in range(half_len):
-            freq_s1[ord(s1[i]) - ord('a')] += 1
+            freq_s1[ord(s1[i]) - ord("a")] += 1
 
         for i in range(half_len):
-            freq_s2[ord(s2[i]) - ord('a')] += 1
+            freq_s2[ord(s2[i]) - ord("a")] += 1
         # calculate absolute difference between the frequencies of each letter
         counter = 0
         for i in range(26):

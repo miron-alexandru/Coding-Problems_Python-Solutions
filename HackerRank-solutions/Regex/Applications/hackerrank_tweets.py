@@ -15,7 +15,7 @@ import re
 
 n = int(input())
 count = 0
-pattern = re.compile(r'hackerrank', re.IGNORECASE)
+pattern = re.compile(r"hackerrank", re.IGNORECASE)
 
 for i in range(n):
     tweet = input()

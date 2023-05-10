@@ -5,13 +5,13 @@
 def format_duration(s):
     if s == 0:
         return "now"
-    
+
     # Calculate seconds, minutes, hours, days, years
     minute = 60
     hour = 60 * minute
     day = 24 * hour
     year = 365 * day
-    
+
     years = s // year
     s %= year
     days = s // day
@@ -20,7 +20,7 @@ def format_duration(s):
     s %= hour
     minutes = s // minute
     s %= minute
-    
+
     duration = []
     if years > 0:
         duration.append("{} year{}".format(years, "" if years == 1 else "s"))
@@ -32,8 +32,7 @@ def format_duration(s):
         duration.append("{} minute{}".format(minutes, "" if minutes == 1 else "s"))
     if s > 0:
         duration.append("{} second{}".format(s, "" if s == 1 else "s"))
-    
-    
+
     if len(duration) == 1:
         return duration[0]
     elif len(duration) == 2:

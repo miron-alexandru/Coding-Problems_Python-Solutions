@@ -1,4 +1,4 @@
-'''
+"""
 You are given three integers: a, b, and m. Print two lines.
 One the first line, print the result of pow(a,b). On the second line 
 print the result of pow(a, b,m)
@@ -15,7 +15,7 @@ Sample input
 Sample output
 81
 1
-'''
+"""
 
 # My solution
 a = int(input())

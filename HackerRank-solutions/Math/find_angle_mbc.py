@@ -12,4 +12,4 @@ MC = AC / 2
 
 angle = round(math.degrees(math.atan2(AB, BC)))
 
-print('{}{}'.format(angle, chr(176)))
+print("{}{}".format(angle, chr(176)))

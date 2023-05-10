@@ -1,4 +1,4 @@
-'''
+"""
 Read in two integers, a and b, and print three lines.
 The first line is the integer division a // b
 The second line in the result of the modulo operator: a % b.
@@ -23,7 +23,7 @@ Sample output
 17
 7
 (17, 7)
-'''
+"""
 
 
 # My solution:

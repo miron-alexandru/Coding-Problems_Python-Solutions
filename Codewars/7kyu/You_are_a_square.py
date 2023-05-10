@@ -4,8 +4,9 @@
 # My Solution:
 import math
 
-def is_square(n):  
+
+def is_square(n):
     if n < 0:
         return False
     square = int(math.sqrt(n))
-    return square * square  == n
+    return square * square == n

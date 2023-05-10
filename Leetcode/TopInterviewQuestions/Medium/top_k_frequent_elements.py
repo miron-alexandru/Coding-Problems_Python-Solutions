@@ -8,11 +8,11 @@ class Solution:
 
         for num in nums:
             frequency[num] = frequency.get(num, 0) + 1
-        
+
         sorted_frequency = sorted(frequency.items(), key=lambda x: x[1], reverse=True)
-        
+
         result = []
         for i in range(k):
             result.append(sorted_frequency[i][0])
-        
+
         return result

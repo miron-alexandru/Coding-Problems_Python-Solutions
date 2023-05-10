@@ -1,5 +1,6 @@
 # problem link: https://www.hackerrank.com/challenges/electronics-shop/problem
 
+
 # my solution::
 def getMoneySpent(keyboards, drives, b):
     max_cost = -1

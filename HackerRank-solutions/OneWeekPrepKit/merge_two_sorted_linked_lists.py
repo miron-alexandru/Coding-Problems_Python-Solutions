@@ -10,7 +10,7 @@ def mergeLists(headA, headB):
 
     merged_head = SinglyLinkedListNode(None)
     current = merged_head
-    
+
     while headA and headB:
         if headA.data < headB.data:
             current.next = headA
@@ -24,5 +24,5 @@ def mergeLists(headA, headB):
         current.next = headA
     elif headB:
         current.next = headB
-    
+
     return merged_head.next

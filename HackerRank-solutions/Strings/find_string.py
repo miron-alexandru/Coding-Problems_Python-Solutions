@@ -8,7 +8,7 @@
 
 # Output Format
 # Output the integer number indicating the total number of occurences of
-# the substring in the original string 
+# the substring in the original string
 
 # Sample Input
 # ABCDCDC
@@ -20,11 +20,10 @@
 
 # My Solution:
 
+
 def count_substring(string, substring):
-	count = 0
-	for i in range(len(string)):
-		if string[i:].startswith(substring):
-			count += 1
-	return count
-
-
+    count = 0
+    for i in range(len(string)):
+        if string[i:].startswith(substring):
+            count += 1
+    return count

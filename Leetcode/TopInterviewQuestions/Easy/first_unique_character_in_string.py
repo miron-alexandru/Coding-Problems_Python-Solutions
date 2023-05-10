@@ -1,5 +1,6 @@
 # Problem Link: https://leetcode.com/problems/first-unique-character-in-a-string/
 
+
 # My Solution:
 class Solution:
     def firstUniqChar(self, s: str) -> int:

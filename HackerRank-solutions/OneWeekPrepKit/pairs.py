@@ -7,7 +7,7 @@ def pairs(k, arr):
     values = set(arr)
 
     count = 0
-    
+
     for value in arr:
         # Check if the value + k is in the set
         if value + k in values:

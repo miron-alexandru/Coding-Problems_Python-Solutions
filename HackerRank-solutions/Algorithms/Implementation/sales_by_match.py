@@ -14,5 +14,5 @@ def sockMerchant(n, ar):
     pairs = 0
     for c in sock_dict.values():
         pairs += c // 2
-    
+
     return pairs

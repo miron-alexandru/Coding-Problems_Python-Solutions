@@ -8,7 +8,7 @@ n, m = map(int, input().split())
 
 a = np.zeros((n, m), dtype=int)
 for i in range(n):
-    a[i] = np.fromstring(input(), sep=' ')
+    a[i] = np.fromstring(input(), sep=" ")
 
 print(np.transpose(a))
 print(a.flatten())

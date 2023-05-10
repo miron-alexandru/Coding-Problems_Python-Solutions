@@ -6,16 +6,16 @@ def isBalanced(s):
     brackets = []
 
     for char in s:
-        if char in ['(', '{', '[']:
+        if char in ["(", "{", "["]:
             brackets.append(char)
-        elif char in [')', '}', ']']:
+        elif char in [")", "}", "]"]:
             if not brackets:
                 return "NO"
-            elif char == ')' and brackets[-1] == '(':
+            elif char == ")" and brackets[-1] == "(":
                 brackets.pop()
-            elif char == '}' and brackets[-1] == '{':
+            elif char == "}" and brackets[-1] == "{":
                 brackets.pop()
-            elif char == ']' and brackets[-1] == '[':
+            elif char == "]" and brackets[-1] == "[":
                 brackets.pop()
             else:
                 return "NO"

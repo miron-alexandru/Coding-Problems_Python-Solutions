@@ -2,4 +2,4 @@
 
 
 # my solution:
-Regex_Pattern = r'^[123][120][xs0][30Aa][xsu][.,]$'
+Regex_Pattern = r"^[123][120][xs0][30Aa][xsu][.,]$"

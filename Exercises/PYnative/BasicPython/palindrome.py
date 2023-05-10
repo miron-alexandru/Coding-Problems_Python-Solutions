@@ -1,7 +1,7 @@
 def palindrome(number):
     print("original number", number)
     original_num = number
-    
+
     # reverse the given number
     reverse_num = 0
     while number > 0:
@@ -14,6 +14,7 @@ def palindrome(number):
         print("Given number palindrome")
     else:
         print("Given number is not palindrome")
+
 
 palindrome(121)
 palindrome(125)

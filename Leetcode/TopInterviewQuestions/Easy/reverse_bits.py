@@ -11,7 +11,7 @@ class Solution:
             res <<= 1
             # Use the bitwise OR operator to set the current bit of the result to the current bit of the input integer
             res |= n & 1
-            
+
             # Shift the input integer to the right by 1 bit to move to the next bit
             n >>= 1
 

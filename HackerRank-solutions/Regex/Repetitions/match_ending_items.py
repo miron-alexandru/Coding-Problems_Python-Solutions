@@ -2,4 +2,4 @@
 
 
 # my solution:
-Regex_Pattern = r'^[a-zA-Z]*s$'
+Regex_Pattern = r"^[a-zA-Z]*s$"

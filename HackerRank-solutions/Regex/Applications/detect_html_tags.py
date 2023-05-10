@@ -14,5 +14,3 @@ for t in range(n):
         tags.add(tag)
 
 print(";".join(sorted(tags)))
-
-

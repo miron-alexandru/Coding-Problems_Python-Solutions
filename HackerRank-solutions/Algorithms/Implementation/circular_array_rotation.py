@@ -9,4 +9,4 @@ def circularArrayRotation(a, k, queries):
     # perform right circular rotation
     a = a[-k:] + a[:-k]
     # return elements at the query indices
-    return [a[q] for q in queries] 
+    return [a[q] for q in queries]

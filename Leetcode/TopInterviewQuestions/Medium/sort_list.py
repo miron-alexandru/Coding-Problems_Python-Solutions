@@ -1,5 +1,6 @@
 # problem link: https://leetcode.com/problems/sort-list/
 
+
 # my solution:
 # Definition for singly-linked list.
 # class ListNode:
@@ -11,18 +12,18 @@ class Solution:
         # base case:
         if not head or not head.next:
             return head
-        
+
         # use fast and slow pointers
         slow, fast = head, head.next
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
-        
+
         # Recursive call to sort the two halves
         right = self.sortList(slow.next)
         slow.next = None
         left = self.sortList(head)
-        
+
         # Merge the two sorted halves
         merged = ListNode()
         tail = merged
@@ -35,6 +36,6 @@ class Solution:
                 right = right.next
             tail = tail.next
         tail.next = left or right
-        
+
         # Return the head of the sorted linked list
         return merged.next

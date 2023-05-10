@@ -7,7 +7,7 @@ def is_abecedarian(word):
     return True
 
 
-fin = open('words.txt')
+fin = open("words.txt")
 count = 0
 
 for line in fin:

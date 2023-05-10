@@ -1,4 +1,4 @@
-'''
+"""
 The students of District College have subscriptions to English
 and Frech newspapers. Some students have subscribed only to 
 English, some have subscribed to only French and some have subscribed to
@@ -35,7 +35,7 @@ Sample Input
 
 Sample Output
 8
-'''
+"""
 
 # My Solution
 n1 = int(input().strip())

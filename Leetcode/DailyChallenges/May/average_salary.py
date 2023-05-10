@@ -4,7 +4,7 @@
 # my solution:
 class Solution:
     def average(self, salary: List[int]) -> float:
-    	# init min and max salary
+        # init min and max salary
         min_salary = min(salary)
         max_salary = max(salary)
         # calculate total salary without min and maxt salary

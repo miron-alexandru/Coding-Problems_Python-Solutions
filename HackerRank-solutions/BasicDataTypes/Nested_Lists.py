@@ -35,13 +35,13 @@
 
 
 # My Solution:
-if __name__ == '__main__':
+if __name__ == "__main__":
     students = []
     for i in range(int(input())):
         name = input()
         grade = float(input())
         students.append([name, grade])
-        
+
     second_lowest = sorted(set([grade for name, grade in students]))[1]
     students = [name for name, grade in students if grade == second_lowest]
     students.sort()

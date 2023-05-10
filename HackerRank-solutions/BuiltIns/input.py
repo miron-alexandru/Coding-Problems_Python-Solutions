@@ -5,6 +5,7 @@
 def evaluate_polynomial(x, k, p):
     return eval(p) == k
 
+
 x, k = map(int, input().strip().split())
 p = input().strip()
 

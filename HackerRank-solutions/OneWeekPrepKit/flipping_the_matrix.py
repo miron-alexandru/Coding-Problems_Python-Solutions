@@ -10,6 +10,11 @@ def flippingMatrix(matrix):
     # loop over all positions in the upper left quadrant
     for i in range(n):
         for j in range(n):
-            max_sum += max(matrix[i][j], matrix[i][2*n-1-j], matrix[2*n-1-i][j], matrix[2*n-1-i][2*n-1-j])
+            max_sum += max(
+                matrix[i][j],
+                matrix[i][2 * n - 1 - j],
+                matrix[2 * n - 1 - i][j],
+                matrix[2 * n - 1 - i][2 * n - 1 - j],
+            )
 
     return max_sum

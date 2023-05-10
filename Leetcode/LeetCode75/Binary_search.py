@@ -1,5 +1,6 @@
 # problem link: https://leetcode.com/problems/binary-search
 
+
 # my solution:
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
@@ -19,6 +20,6 @@ class Solution:
                 high = mid - 1
             else:
                 # If middle element is the target, return middle index
-                return mid              
+                return mid
         # Target not found
         return -1

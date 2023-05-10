@@ -3,8 +3,11 @@
 
 # my solution:
 
+
 class Solution:
-    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+    def mergeTwoLists(
+        self, list1: Optional[ListNode], list2: Optional[ListNode]
+    ) -> Optional[ListNode]:
         head_merge = ListNode(None)
         node = head_merge
         p1 = list1

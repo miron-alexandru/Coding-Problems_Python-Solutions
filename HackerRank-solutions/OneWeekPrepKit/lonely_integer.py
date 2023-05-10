@@ -4,6 +4,7 @@
 # My Solution:
 from collections import Counter
 
+
 def lonelyinteger(a):
     counts = Counter(a)
     for i in counts:

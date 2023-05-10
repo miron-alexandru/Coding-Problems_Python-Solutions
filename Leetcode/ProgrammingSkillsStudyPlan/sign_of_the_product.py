@@ -14,6 +14,7 @@ class Solution:
         else:
             return 1 if product > 0 else -1
 
+
 # second solution, this has early stopping if a zero or negative value is encountered early in the list,
 # the function can return immediately without needing to iterate through the rest of the list.
 class Solution:

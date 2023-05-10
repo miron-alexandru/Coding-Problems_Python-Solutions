@@ -1,7 +1,7 @@
 # Problem Link: https://www.hackerrank.com/challenges/re-findall-re-finditer/problem
 
 
-# My Solution: 
+# My Solution:
 
 
 import re

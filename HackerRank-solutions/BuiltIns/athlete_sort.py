@@ -9,9 +9,11 @@ for i in range(n):
     rows.append(row)
 k = int(input())
 
+
 # Define a function to extract the kth attribute from a row
 def get_kth_attr(row):
     return row[k]
+
 
 # Sort the rows based on the kth attribute
 rows.sort(key=get_kth_attr)

@@ -3,4 +3,4 @@
 
 # My Solution:
 def order(words):
-    return ' '.join(sorted(words.split(), key=lambda w:sorted(w)))
+    return " ".join(sorted(words.split(), key=lambda w: sorted(w)))

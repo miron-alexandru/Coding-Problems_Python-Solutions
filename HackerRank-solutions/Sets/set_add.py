@@ -1,4 +1,4 @@
-'''
+"""
 Rupal has a huge collection of country stamps.She decided to count the
 total number of distinct country stamps in her collection. She asked for
 your help. You pick the stamps one by one from a stack of n country stamps.
@@ -26,9 +26,10 @@ France
 
 Sample output
 5
-'''
+"""
 
 # My solution
+
 
 def count_distinct_stamps(n, stamps):
     stamps_set = set()
@@ -37,11 +38,10 @@ def count_distinct_stamps(n, stamps):
         stamps_set.add(stamp)
     return len(stamp_set)
 
+
 n = int(input().strip())
 stamps = []
 for i in range(n):
     stamps.append(input().strip())
-    
+
 print(count_distinct_stamps(n, stamps))
-
-

@@ -3,12 +3,12 @@
 # My Solution:
 import math
 
+
 def isPP(n):
     if n < 2:
         return None
-    for b in range(2, int(math.log2(n))+1):
-        a = int(round(n ** (1/b)))
-        if a ** b == n:
+    for b in range(2, int(math.log2(n)) + 1):
+        a = int(round(n ** (1 / b)))
+        if a**b == n:
             return [a, b]
     return None
-    

@@ -6,4 +6,4 @@ t = int(input())
 
 for i in range(t):
     s = str(input())
-    print(s[0::2] + ' ' + s[1::2])
+    print(s[0::2] + " " + s[1::2])

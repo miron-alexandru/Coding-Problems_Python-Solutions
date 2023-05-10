@@ -7,8 +7,8 @@ def generate_hashtag(s):
     hashtag = "#" + "".join(word.capitalize() for word in words)
     if not words:
         return False
-    
+
     if len(hashtag) > 140:
         return False
-    
+
     return hashtag

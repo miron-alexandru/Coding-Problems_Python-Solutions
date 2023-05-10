@@ -5,7 +5,7 @@ def make_word_dict():
     """Read. the words in words.txt and return a dictionary
     that contains the words as keys."""
     d = dict()
-    fin = open('words.txt')
+    fin = open("words.txt")
     for line in fin:
         word = line.strip().lower()
         d[word] = word
@@ -34,7 +34,7 @@ def check_word(word, word_dict, phonetic):
     word_dict: dictionary with words as keys
     phonetic: map from words to pronunciation codes
     """
-    word1 = word[1:] 
+    word1 = word[1:]
     if word1 not in word_dict:
         return False
     if not homophones(word, word1, phonetic):
@@ -49,7 +49,7 @@ def check_word(word, word_dict, phonetic):
     return True
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     phonetic = read_dictionary()
     word_dict = make_word_dict()
 

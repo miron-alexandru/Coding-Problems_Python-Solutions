@@ -6,6 +6,4 @@ n = 1234
 
 
 def count_bits(n):
-	return bin(n).count("1")
-
-
+    return bin(n).count("1")

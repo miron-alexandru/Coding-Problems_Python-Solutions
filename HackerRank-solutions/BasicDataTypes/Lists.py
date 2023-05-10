@@ -9,7 +9,6 @@
 # reverse: Reverse the list.
 
 
-
 # Initialize your list and read in the value of n followed by n lines of
 # commands where each command will be of the 7 types listed above.
 # Iterate through each command in order and perform the corresponding
@@ -59,7 +58,7 @@ for i in range(n):
     line = input().strip().split()
     cmd = line[0]
     args = line[1:]
-    
+
     if cmd == "insert":
         list.insert(int(args[0]), int(args[1]))
     elif cmd == "print":
@@ -74,4 +73,3 @@ for i in range(n):
         list.pop()
     elif cmd == "reverse":
         list.reverse()
-

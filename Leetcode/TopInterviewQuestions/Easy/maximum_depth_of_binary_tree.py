@@ -3,6 +3,7 @@
 
 # My Solution:
 
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -20,4 +21,4 @@ class Solution:
         if left_subtree_depth > right_subtree_depth:
             return left_subtree_depth + 1
         else:
-            return right_subtree_depth + 1 
+            return right_subtree_depth + 1

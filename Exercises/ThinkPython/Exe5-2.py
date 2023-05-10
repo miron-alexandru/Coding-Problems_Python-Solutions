@@ -4,12 +4,14 @@ def check_fermat(a, b, c, n):
     else:
         print("No, that doesn't work.")
 
-def prompting():
-	a = int(input('Enter value of a: '))
-	b = int(input('Enter value of b: '))
-	c = int(input('Enter value of c: '))
-	n = int(input('Enter value of n: '))
 
-	check_fermat(a, b, c, n)
+def prompting():
+    a = int(input("Enter value of a: "))
+    b = int(input("Enter value of b: "))
+    c = int(input("Enter value of c: "))
+    n = int(input("Enter value of n: "))
+
+    check_fermat(a, b, c, n)
+
 
 prompting()

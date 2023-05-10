@@ -2,6 +2,7 @@
 
 # My Solution:
 
+
 def hurdleRace(k, height):
     max_height = max(height)
     diff = max_height - k

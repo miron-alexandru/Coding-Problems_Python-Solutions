@@ -1,4 +1,4 @@
-'''
+"""
 You are given a string S.
 Your task is to print all possible combinations, up to size k, of the
 string in lexicograaphic sorted order.
@@ -25,16 +25,19 @@ AK
 CH
 CK
 HK
-'''
+"""
 
 # My Solution:
 
+
 def combinations(s, k):
     from itertools import combinations
+
     s = sorted(s)
-    for i in range(1, k+1):
+    for i in range(1, k + 1):
         for comb in combinations(s, i):
             print("".join(comb))
+
 
 s, k = input().split()
 combinations(s, int(k))

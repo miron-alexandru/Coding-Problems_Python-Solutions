@@ -1,7 +1,7 @@
 # Problem Link: https://www.codewars.com/kata/514b92a657cdc65150000006
 
 
-# My Solution: 
+# My Solution:
 def solution(number):
     sol = 0
     for i in range(number):
@@ -9,5 +9,5 @@ def solution(number):
             sol += i
         elif number < 0:
             return 0
-        
+
     return sol

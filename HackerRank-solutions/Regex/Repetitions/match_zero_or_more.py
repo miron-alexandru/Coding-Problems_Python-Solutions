@@ -2,4 +2,4 @@
 
 
 # my solution:
-Regex_Pattern = r'^\d{2,}[a-z]*[A-Z]*$'
+Regex_Pattern = r"^\d{2,}[a-z]*[A-Z]*$"

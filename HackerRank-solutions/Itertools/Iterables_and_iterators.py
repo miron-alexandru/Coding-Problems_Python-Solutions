@@ -9,11 +9,11 @@ letters = input().split()
 k = int(input())
 
 # count indices containing 'a'
-count_a = letters.count('a')
+count_a = letters.count("a")
 
 count_no_a = 0
 for indices in it.combinations(letters, k):
-    if 'a' not in indices:
+    if "a" not in indices:
         count_no_a += 1
 
 # compute the probability

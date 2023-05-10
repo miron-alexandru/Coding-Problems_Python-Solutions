@@ -4,7 +4,7 @@
 # my solution:
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
-    	# we create two pointers
+        # we create two pointers
         slow = nums[0]
         fast = nums[0]
         # move slow pointer one step at a time, fast pointer two steps

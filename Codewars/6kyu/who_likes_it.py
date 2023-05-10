@@ -3,6 +3,7 @@
 
 # My Solution:
 
+
 def likes(names):
     n = len(names)
     if n == 0:
@@ -15,4 +16,3 @@ def likes(names):
         return "{}, {} and {} like this".format(names[0], names[1], names[2])
     else:
         return "{}, {} and {} others like this".format(names[0], names[1], n - 2)
-

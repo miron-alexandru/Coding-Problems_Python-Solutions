@@ -1,13 +1,14 @@
 # Problem Link: https://www.hackerrank.com/challenges/30-linked-list-deletion/problem
 
+
 # My Solution:
-def removeDuplicates(self,head):
+def removeDuplicates(self, head):
     if head is None:
         return None
-            
+
     seen = set()
     seen.add(head.data)
-        
+
     current = head
     while current.next is not None:
         if current.next.data in seen:
@@ -15,5 +16,5 @@ def removeDuplicates(self,head):
         else:
             seen.add(current.next.data)
             current = current.next
-        
+
     return head

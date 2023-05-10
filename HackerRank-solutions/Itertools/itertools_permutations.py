@@ -1,4 +1,4 @@
-'''
+"""
 You are given a string S.
 Your task is to print all possible permutations of size k of the string
 in lexicographic sorted order.
@@ -28,15 +28,18 @@ HK
 KA
 KC
 KH
-'''
+"""
 
 # Solution:
 
+
 def permutations(s, k):
     from itertools import permutations
+
     s = sorted(s)
     for comb in permutations(s, k):
         print("".join(comb))
+
 
 s, k = input().split()
 permutations(s, int(k))

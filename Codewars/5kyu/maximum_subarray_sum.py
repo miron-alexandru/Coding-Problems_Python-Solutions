@@ -3,6 +3,7 @@
 
 # My Solution:
 
+
 def max_sequence(arr):
     if not arr:
         return 0

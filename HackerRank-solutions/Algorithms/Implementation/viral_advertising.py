@@ -1,5 +1,6 @@
 # problem link: https://www.hackerrank.com/challenges/strange-advertising/problem
 
+
 # my solution:
 def viralAdvertising(n):
     shared = 5

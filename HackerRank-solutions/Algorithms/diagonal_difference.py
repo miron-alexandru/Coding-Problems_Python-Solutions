@@ -8,6 +8,6 @@ def diagonalDifference(arr):
     sum_secondary = 0
     for i in range(n):
         sum_primary += arr[i][i]
-        sum_secondary += arr[i][n-i-1]
-        
+        sum_secondary += arr[i][n - i - 1]
+
     return abs(sum_primary - sum_secondary)

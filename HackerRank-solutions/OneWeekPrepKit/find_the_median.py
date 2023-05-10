@@ -1,5 +1,6 @@
 # Problem: https://www.hackerrank.com/challenges/find-the-median/problem
 
+
 # My solution:
 def findMedian(arr):
     arr.sort()

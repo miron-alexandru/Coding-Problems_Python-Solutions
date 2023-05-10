@@ -6,14 +6,14 @@ class Solution:
     def predictPartyVictory(self, senate: str) -> str:
         radiant = []
         dire = []
-        
+
         # Divide the senators based on their party and store their indices in separate lists
         for i, party in enumerate(senate):
-            if party == 'R':
+            if party == "R":
                 radiant.append(i)
             else:
                 dire.append(i)
-        
+
         # Continue until either of the parties has no more senators left
         while radiant and dire:
             # Compare the indices of the first senators in both parties' lists
@@ -26,6 +26,6 @@ class Solution:
             # Remove the first senator from both parties' lists since they have exercised their right to ban
             radiant.pop(0)
             dire.pop(0)
-        
+
         # Return the party with more senators
-        return 'Radiant' if len(radiant) > len(dire) else 'Dire'
+        return "Radiant" if len(radiant) > len(dire) else "Dire"

@@ -1,5 +1,6 @@
 # problem link: https://www.codewars.com/kata/57040e445a726387a1001cf7/train/python
 
+
 # my solution:
 def fusc(n):
     if n == 0:

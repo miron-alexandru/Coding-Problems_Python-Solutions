@@ -1,23 +1,22 @@
-cool = ['blue', 'green']
-warm = ['red', 'yellow', 'orange']
-print(cool) 
+cool = ["blue", "green"]
+warm = ["red", "yellow", "orange"]
+print(cool)
 print(warm)
 
 colors1 = [cool]
 print(colors1)
 colors1.append(warm)
-print('colors1 = ', colors1)
+print("colors1 = ", colors1)
 
-colors2 = [['blue', 'green'],
-          ['red', 'yellow', 'orange']]
-print('colors2 =', colors2)
+colors2 = [["blue", "green"], ["red", "yellow", "orange"]]
+print("colors2 =", colors2)
 
-warm.remove('red') 
-print('colors1 = ', colors1)
-print('colors2 =', colors2)
+warm.remove("red")
+print("colors1 = ", colors1)
+print("colors2 =", colors2)
 
 for e in colors1:
-    print('e =', e)
+    print("e =", e)
 
 for e in colors1:
     if type(e) == list:
@@ -27,15 +26,15 @@ for e in colors1:
         print(e)
 
 flat = cool + warm
-print('flat =', flat)
+print("flat =", flat)
 
 print(flat.sort())
-print('flat =', flat)
+print("flat =", flat)
 
-new_flat = sorted(flat, reverse = True)
-print('flat =', flat)
-print('new_flat =', new_flat)
+new_flat = sorted(flat, reverse=True)
+print("flat =", flat)
+print("new_flat =", new_flat)
 
-cool[1] = 'black'
+cool[1] = "black"
 print(cool)
 print(colors1)

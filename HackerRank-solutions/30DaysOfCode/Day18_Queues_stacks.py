@@ -5,6 +5,7 @@
 
 from collections import deque
 
+
 class Solution:
     def __init__(self):
         self.stack = []

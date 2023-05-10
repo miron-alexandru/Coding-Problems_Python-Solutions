@@ -14,8 +14,8 @@ class Solution:
             # If middle is bad search for the left half
             if isBadVersion(mid):
                 right = mid
-            #If middle is good search for the right half
+            # If middle is good search for the right half
             else:
                 left = mid + 1
-        
+
         return left

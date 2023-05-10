@@ -1,4 +1,4 @@
-'''
+"""
 Read four numbers, a, b, c, and d and print the result of a ** b + c ** d.
 
 Input format
@@ -17,7 +17,7 @@ Sample input
 
 Sample output
 4710194409608608369201743232
-'''
+"""
 
 
 # My solution
@@ -26,4 +26,4 @@ b = int(input())
 c = int(input())
 d = int(input())
 
-print((a ** b) + (c ** d))
+print((a**b) + (c**d))

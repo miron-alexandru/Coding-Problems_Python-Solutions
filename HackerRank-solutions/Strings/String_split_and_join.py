@@ -13,6 +13,7 @@
 
 # My solution
 
+
 def split_and_join(line):
     line = line.split(" ")
     line = "-".join(line)

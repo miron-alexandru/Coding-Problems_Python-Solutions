@@ -5,7 +5,7 @@
 def designerPdfViewer(h, word):
     height = 0
     for letter in word:
-        ind = ord(letter) - ord('a')
+        ind = ord(letter) - ord("a")
         current_height = h[ind]
         if current_height > height:
             height = current_height

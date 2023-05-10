@@ -6,4 +6,4 @@
 x = list(map(int, input().split()))
 n = [map(float, input().split()) for i in range(x[1])]
 for i in zip(*n):
-    print(sum(i)/x[1])
+    print(sum(i) / x[1])

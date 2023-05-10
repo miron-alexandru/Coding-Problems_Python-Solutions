@@ -15,7 +15,7 @@ class Queue:
             while self.enqueue_stack:
                 self.dequeue_stack.append(self.enqueue_stack.pop())
         if not self.dequeue_stack:
-            raise IndexError('empty queue')
+            raise IndexError("empty queue")
         self.dequeue_stack.pop()
 
     def front(self):
@@ -23,8 +23,9 @@ class Queue:
             while self.enqueue_stack:
                 self.dequeue_stack.append(self.enqueue_stack.pop())
         if not self.dequeue_stack:
-            raise IndexError('empty queue')
+            raise IndexError("empty queue")
         return self.dequeue_stack[-1]
+
 
 queue = Queue()
 

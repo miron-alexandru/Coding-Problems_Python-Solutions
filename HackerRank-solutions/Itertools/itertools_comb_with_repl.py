@@ -1,4 +1,4 @@
-'''
+"""
 You are given a string S.
 Your task is to print all possible size k replacement comb of the string
 in lexicographic sorted order.
@@ -27,15 +27,18 @@ CK
 HH
 HK
 KK
-'''
+"""
 
 # Solution:
 
+
 def comb_replacement(s, k):
-	from itertools import combinations_with_replacement
-	s = sorted(s)
-	for comb in combinations_with_replacement(s, k):
-		print("".join(comb))
+    from itertools import combinations_with_replacement
+
+    s = sorted(s)
+    for comb in combinations_with_replacement(s, k):
+        print("".join(comb))
+
 
 s, k = input().split()
 comb_replacement(s, int(k))

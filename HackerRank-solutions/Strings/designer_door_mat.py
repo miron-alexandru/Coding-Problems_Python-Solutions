@@ -1,4 +1,4 @@
-'''
+"""
 Mr. Vincent works in a door mat manufacturing company.
 One day, he designed a new door mat with the following specifications:
 
@@ -55,14 +55,12 @@ Sample output
 ------.|..|..|..|..|.------
 ---------.|..|..|.---------
 ------------.|.------------
-'''
+"""
 
 # My Solution
 n, m = map(int, input().split())
-for i in range(int(n/2)):
-    print(('.|.' * (2*i + 1)).center(m, '-'))
-print('WELCOME'.center(m, '-'))
-for i in range(int(n/2), 0, -1):
-    print(('.|.' * (2*i - 1)).center(m, '-'))
-
-
+for i in range(int(n / 2)):
+    print((".|." * (2 * i + 1)).center(m, "-"))
+print("WELCOME".center(m, "-"))
+for i in range(int(n / 2), 0, -1):
+    print((".|." * (2 * i - 1)).center(m, "-"))

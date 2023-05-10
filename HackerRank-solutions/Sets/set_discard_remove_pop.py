@@ -1,4 +1,4 @@
-'''
+"""
 You have a non-empty set s, and you have to execute N commands
 given in N lines.
 The commands will be pop, remove and discard.
@@ -35,7 +35,7 @@ discard 5
 
 Sample Output
 4
-'''
+"""
 
 # My solution
 n = int(input().strip())
@@ -44,9 +44,9 @@ m = int(input().strip())
 
 for i in range(m):
     cmd = input().strip().split()
-    if cmd[0] == 'pop':
+    if cmd[0] == "pop":
         s.pop()
-    elif cmd[0] == 'remove':
+    elif cmd[0] == "remove":
         s.discard(int(cmd[1]))
     else:
         s.discard(int(cmd[1]))

@@ -6,4 +6,5 @@ def has_duplicates(t):
         d[x] = True
     return False
 
+
 print(has_duplicates([1, 2, 3]))

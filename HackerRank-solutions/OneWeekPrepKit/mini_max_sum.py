@@ -12,6 +12,7 @@ def miniMaxSum(arr):
         total_sum += arr[i]
     print(total_sum - max_val, total_sum - min_val)
 
+
 # O(n log n)
 def miniMaxSum(arr):
     arr = sorted(arr)

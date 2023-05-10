@@ -1,4 +1,4 @@
-'''
+"""
 You are given an integer, N. Your task is to print an alphabet rangoli
 of size N.
 
@@ -31,14 +31,16 @@ e-d-c-b-a-b-c-d-e
 ----e-d-c-d-e----
 ------e-d-e------
 --------e--------
-'''
+"""
+
+
 # My solution:
 def print_rangoli(size):
     alpha = "abcdefghijklmnopqrstuvwxyz"
     data = [alpha[i] for i in range(size)]
     items = list(range(size))
-    items = items[:-1]+items[::-1]
+    items = items[:-1] + items[::-1]
     for i in items:
-        temp = data[-(i+1):]
-        row = temp[::-1]+temp[1:]
-        print("-".join(row).center(n*4-3, "-"))
+        temp = data[-(i + 1) :]
+        row = temp[::-1] + temp[1:]
+        print("-".join(row).center(n * 4 - 3, "-"))

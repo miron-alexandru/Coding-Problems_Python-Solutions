@@ -13,4 +13,4 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
         dist = b + d
         if s <= dist <= t:
             oranges_count += 1
-    print(apples_count, oranges_count, sep='\n')
+    print(apples_count, oranges_count, sep="\n")

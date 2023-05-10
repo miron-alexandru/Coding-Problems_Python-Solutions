@@ -1,5 +1,6 @@
 # problem link: https://leetcode.com/problems/merge-sorted-array
 
+
 # my solution:
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
@@ -18,4 +19,4 @@ class Solution:
             p -= 1
 
         # if any nums remained in nums2, copy them at the start of nums 1
-        nums1[:p2 + 1] = nums2[:p2 + 1]
+        nums1[: p2 + 1] = nums2[: p2 + 1]

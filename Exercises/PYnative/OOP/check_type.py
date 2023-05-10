@@ -4,8 +4,10 @@ class Vehicle:
         self.mileage = mileage
         self.capacity = capacity
 
+
 class Bus(Vehicle):
     pass
+
 
 School_bus = Bus("School Volvo", 12, 50)
 

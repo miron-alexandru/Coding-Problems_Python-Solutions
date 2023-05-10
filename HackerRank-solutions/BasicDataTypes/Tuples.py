@@ -1,5 +1,5 @@
 # Given an integer, n, and n space-separated integers as input
-# create a tuple, t, of those n integer. Then compute and 
+# create a tuple, t, of those n integer. Then compute and
 # print the result of hash(t)
 
 
