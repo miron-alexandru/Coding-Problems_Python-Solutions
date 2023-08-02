@@ -1,7 +1,7 @@
 # problem link: https://leetcode.com/problems/permutations
 
 
-# my solution:
+# My solution:
 import itertools
 
 class Solution:
