@@ -1,2 +1,0 @@
-class Circle():
-	self.center = 

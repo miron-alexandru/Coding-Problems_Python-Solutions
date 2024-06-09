@@ -1,1 +1,1 @@
-I use this Python repository to store my coding solutions from platforms like Codewars, Hackerrank, Leetcode, and books. It helps me keep track of my progress, and I can easily review and improve my solutions.
+I use this Python repository to store my coding solutions from platforms such as Codewars, Hackerrank, Leetcode, and various programming books. It helps me track my progress, review my solutions, and continuously improve them over time.
